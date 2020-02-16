@@ -1,0 +1,414 @@
+{
+  "annotations": {
+    "2A": {
+      "end": 3757,
+      "start": 3316,
+      "strand": 1
+    },
+    "2B": {
+      "end": 4054,
+      "start": 3757,
+      "strand": 1
+    },
+    "2C": {
+      "end": 5044,
+      "start": 4054,
+      "strand": 1
+    },
+    "3A": {
+      "end": 5311,
+      "start": 5044,
+      "strand": 1
+    },
+    "3B": {
+      "end": 5377,
+      "start": 5311,
+      "strand": 1
+    },
+    "3C": {
+      "end": 5926,
+      "start": 5377,
+      "strand": 1
+    },
+    "3D": {
+      "end": 7297,
+      "start": 5926,
+      "strand": 1
+    },
+    "VP1": {
+      "end": 3316,
+      "start": 2389,
+      "strand": 1
+    },
+    "VP2": {
+      "end": 1684,
+      "start": 940,
+      "strand": 1
+    },
+    "VP3": {
+      "end": 2389,
+      "start": 1684,
+      "strand": 1
+    },
+    "VP4": {
+      "end": 940,
+      "start": 733,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 7368,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "Country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "state": {
+      "color_map": [
+        [
+          "AL",
+          "#EEFF4D"
+        ],
+        [
+          "AR",
+          "#1CFF4A"
+        ],
+        [
+          "CO",
+          "#45DCFF"
+        ],
+        [
+          "CT",
+          "#FFA9BC"
+        ],
+        [
+          "DC",
+          "#FF2385"
+        ],
+        [
+          "DE",
+          "#F03332"
+        ],
+        [
+          "GA",
+          "#F0CB43"
+        ],
+        [
+          "IA",
+          "#BA76F5"
+        ],
+        [
+          "ID",
+          "#4DA0FF"
+        ],
+        [
+          "IL",
+          "#DFDEFF"
+        ],
+        [
+          "KS",
+          "#3FE8D7"
+        ],
+        [
+          "KY",
+          "#D9DFFF"
+        ],
+        [
+          "LA",
+          "#8EFFA3"
+        ],
+        [
+          "MA",
+          "#F785FF"
+        ],
+        [
+          "MD",
+          "#FF6047"
+        ],
+        [
+          "MI",
+          "#AEB2F5"
+        ],
+        [
+          "MS",
+          "#E8DF46"
+        ],
+        [
+          "MT",
+          "#3AB4E8"
+        ],
+        [
+          "NC",
+          "#FEB54B"
+        ],
+        [
+          "ND",
+          "#8F65FF"
+        ],
+        [
+          "NE",
+          "#CA9EFF"
+        ],
+        [
+          "NJ",
+          "#FFCABD"
+        ],
+        [
+          "OH",
+          "#EED6FF"
+        ],
+        [
+          "OK",
+          "#51FFB8"
+        ],
+        [
+          "OR",
+          "#3A63E8"
+        ],
+        [
+          "PA",
+          "#F5877F"
+        ],
+        [
+          "RI",
+          "#F08DCF"
+        ],
+        [
+          "SC",
+          "#FFCE59"
+        ],
+        [
+          "SD",
+          "#AA84F0"
+        ],
+        [
+          "TN",
+          "#FEE85A"
+        ],
+        [
+          "TX",
+          "#3CF072"
+        ],
+        [
+          "VA",
+          "#F55A22"
+        ],
+        [
+          "VT",
+          "#FF41D7"
+        ],
+        [
+          "WA",
+          "#4040FF"
+        ],
+        [
+          "WI",
+          "#E3B3FF"
+        ],
+        [
+          "WV",
+          "#FF9D5C"
+        ],
+        [
+          "WY",
+          "#70DFFF"
+        ]
+      ],
+      "key": "state",
+      "legendTitle": "State",
+      "menuItem": "state",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "colorBy": "state",
+    "geoResolution": "state",
+    "mapTriplicate": false
+  },
+  "filters": [
+    "country",
+    "state"
+  ],
+  "geo": {
+    "country": {
+      "USA": {
+        "latitude": 39.7837304,
+        "longitude": -100.4458824
+      }
+    },
+    "state": {
+      "AL": {
+        "latitude": 32.31823,
+        "longitude": -86.902298
+      },
+      "AR": {
+        "latitude": 34.79999,
+        "longitude": -92.199997
+      },
+      "CO": {
+        "latitude": 39.113014,
+        "longitude": -105.35888
+      },
+      "CT": {
+        "latitude": 41.5999,
+        "longitude": -72.69997
+      },
+      "DC": {
+        "latitude": 38.89511,
+        "longitude": -77.03637
+      },
+      "DE": {
+        "latitude": 39.0,
+        "longitude": -75.5
+      },
+      "GA": {
+        "latitude": 33.247875,
+        "longitude": -83.44116
+      },
+      "IA": {
+        "latitude": 42.032974,
+        "longitude": -93.581543
+      },
+      "ID": {
+        "latitude": 44.068203,
+        "longitude": -114.742043
+      },
+      "IL": {
+        "latitude": 40.0,
+        "longitude": -89.0
+      },
+      "KS": {
+        "latitude": 38.5,
+        "longitude": -98.0
+      },
+      "KY": {
+        "latitude": 37.839333,
+        "longitude": -84.27
+      },
+      "LA": {
+        "latitude": 30.39183,
+        "longitude": -92.329102
+      },
+      "MA": {
+        "latitude": 42.407211,
+        "longitude": -71.382439
+      },
+      "MD": {
+        "latitude": 39.045753,
+        "longitude": -76.641273
+      },
+      "MI": {
+        "latitude": 44.182205,
+        "longitude": -84.506836
+      },
+      "MS": {
+        "latitude": 33.0,
+        "longitude": -90.0
+      },
+      "MT": {
+        "latitude": 46.96526,
+        "longitude": -109.533691
+      },
+      "NC": {
+        "latitude": 35.782169,
+        "longitude": -80.793457
+      },
+      "ND": {
+        "latitude": 47.650589,
+        "longitude": -100.437012
+      },
+      "NE": {
+        "latitude": 41.5,
+        "longitude": -100.0
+      },
+      "NJ": {
+        "latitude": 39.833851,
+        "longitude": -74.871826
+      },
+      "OH": {
+        "latitude": 40.367474,
+        "longitude": -82.996216
+      },
+      "OK": {
+        "latitude": 36.084621,
+        "longitude": -96.921387
+      },
+      "OR": {
+        "latitude": 44.0,
+        "longitude": -120.5
+      },
+      "PA": {
+        "latitude": 41.203323,
+        "longitude": -77.194527
+      },
+      "RI": {
+        "latitude": 41.7,
+        "longitude": -71.5
+      },
+      "SC": {
+        "latitude": 33.836082,
+        "longitude": -81.163727
+      },
+      "SD": {
+        "latitude": 44.5,
+        "longitude": -100.0
+      },
+      "TN": {
+        "latitude": 35.860119,
+        "longitude": -86.660156
+      },
+      "TX": {
+        "latitude": 31.0,
+        "longitude": -100.0
+      },
+      "VA": {
+        "latitude": 37.926868,
+        "longitude": -78.024902
+      },
+      "VT": {
+        "latitude": 44.0,
+        "longitude": -72.7
+      },
+      "WA": {
+        "latitude": 47.751076,
+        "longitude": -120.740135
+      },
+      "WI": {
+        "latitude": 44.5,
+        "longitude": -89.5
+      },
+      "WV": {
+        "latitude": 39.0,
+        "longitude": -80.5
+      },
+      "WY": {
+        "latitude": 43.07597,
+        "longitude": -107.290283
+      }
+    }
+  },
+  "maintainer": [
+    "Matthew Benczkowski",
+    "https://github.com/mattbencz/EVD68_USA.git"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "EVD68_USA",
+  "updated": "16 Feb 2020",
+  "virus_count": 99
+}
